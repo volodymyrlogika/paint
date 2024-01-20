@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw; height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.square,
+.palette,
+.clear {
+    background: black;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border: .2px solid rgb(66, 66, 66);
+    box-sizing: border-box;
+}
+
+.clear {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.clear:hover {
+    background:rgb(54, 54, 54);
+}
