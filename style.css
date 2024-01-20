@@ -15,10 +15,10 @@ body {
 .square,
 .palette,
 .clear {
-    background: black;
+    background: rgb(255, 255, 255);
     flex-grow: 0;
     flex-shrink: 0;
-    border: .2px solid rgb(66, 66, 66);
+    border: .2px solid rgb(193, 193, 193);
     box-sizing: border-box;
 }
 
